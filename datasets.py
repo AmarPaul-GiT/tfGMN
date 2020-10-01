@@ -318,3 +318,4 @@ class FixedGraphEditDistanceDataset(GraphEditDistanceDataset):
             yield packed_batch, labels[ptr : ptr + batch_size]
             ptr += batch_size
 
+#code end
